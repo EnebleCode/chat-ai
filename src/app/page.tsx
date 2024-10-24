@@ -3,7 +3,7 @@ import Chat from "@/components/chat";
 import CreditsCounter from "@/components/credits";
 import { WalletProvider } from "@/components/providers/BitteWalletProvider";
 
-export default function Home() {/*
+export default function Home() {
   return (
     <WalletProvider>
       <div className="relative">
@@ -13,12 +13,6 @@ export default function Home() {/*
         <Chat />
       </div>
     </WalletProvider>
-  );*/
-
-  return(
-    <div>
-      Chinga tu madre
-    </div>
   );
 }
 
