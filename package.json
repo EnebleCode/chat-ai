@@ -13,10 +13,10 @@
   "homepage": "https://templates.bitte.ai/templates/ai-chat",
   "author": "Bitte Protocol Team <eng@bitte.ai>",
   "scripts": {
-    "lint": "next lint",
-    "dev": "cross-env NODE_ENV=development node next",
-      "build": "cross-env NODE_ENV=production node next build",
-      "start": "cross-env NODE_ENV=production node next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
