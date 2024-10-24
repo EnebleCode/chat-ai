@@ -5,7 +5,6 @@ export const runtime = "edge";
 export async function POST(req: Request) {
   const body = await req.json();
   const { messages } = body;
-
   const response = await fetch(
     "https://mintbase-wallet-git-ai-relayer-credits-mintbase.vercel.app/api/ai/v1/router/chat",
     {
